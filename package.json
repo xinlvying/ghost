@@ -1,8 +1,8 @@
 {
-    "name": "casper",
-    "description": "The default personal blogging theme for Ghost. Beautiful, minimal and responsive.",
-    "demo": "https://demo.ghost.io",
-    "version": "1.3.3",
+    "name": "Boo",
+    "description": "A fork of Casper with special attention to the subtle details.",
+    "demo": "*",
+    "version": "0.1.0",
     "engines": {
         "ghost": ">=0.9.0 <1.0.0"
     },
@@ -12,25 +12,31 @@
         "mobile": "assets/screenshot-mobile.jpg"
     },
     "author": {
-        "name": "Ghost Foundation",
-        "email": "hello@ghost.org",
-        "url": "https://ghost.org"
+        "name": "Mr. Ivan",
+        "email": "ivan@ivandigital.com",
+        "url": "http://ivandigital.com"
     },
     "gpm": {
         "type": "theme",
         "categories": [
+            "Minimalist",
+            "Clean",
             "Minimal",
             "Personal Blogs"
         ]
     },
     "keywords": [
         "ghost",
-        "theme"
+        "theme",
+        "boo",
+        "minimalist",
+        "clean",
+        "blog"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/TryGhost/Casper.git"
+        "url": "*"
     },
-    "bugs": "https://github.com/TryGhost/Casper/issues",
-    "contributors": "https://github.com/TryGhost/Casper/graphs/contributors"
+    "bugs": "*",
+    "contributors": "*"
 }
