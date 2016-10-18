@@ -1915,7 +1915,7 @@ body:not(.page-template) .post-title {
     .main-header {
         margin-bottom: 15px;
         height: 40vh;
-        max-height: 200px;
+        max-height: 250px;
     }
 
     .no-cover.main-header {
@@ -1935,10 +1935,12 @@ body:not(.page-template) .post-title {
 
     .blog-logo {
         padding: 5px;
+        padding-top: 3px;
+        padding-left: 7px;
     }
 
     .blog-logo img {
-        height: 30px;
+        height: 32px;
     }
 
     .menu-button {
@@ -1948,6 +1950,17 @@ body:not(.page-template) .post-title {
         color: #2e2e2e;
         background: transparent;
     }
+
+    .menu-button .word {
+        display: none;
+    }
+
+    .menu-button:before {
+        font-size: 22px;
+        top: 6px;
+        right: -7px;
+    }
+
     .menu-button:hover {
         color: #2e2e2e;
         border-color: transparent;
