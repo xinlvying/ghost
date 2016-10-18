@@ -20,6 +20,25 @@
             $("body").toggleClass("nav-opened nav-closed");
         });
 
+        // Stop main header from resizing when scrolling on tablets:
+        var md = new MobileDetect(window.navigator.userAgent);
+
+        if (md.tablet()) {
+            var headerHeightLandscape;
+            var headerHeightPortrait;
+
+            // If orientation is landscape:
+            if (screen.orientation.angle === 0 || screen.orientation.angle === 180) {
+                headerHeightLandscape = $('.main-header').css('height');
+                $('.main-header').css('height', headerHeightLandscape);
+            }
+            // If orientation is portrait:
+            else {
+                headerHeightPortrait = $('.main-header').css('height');
+                $('.main-header').css('height', headerHeightPortrait);
+            }
+        }
+
     });
 
     // Arctic Scroll by Paul Adam Davis
@@ -54,3 +73,4 @@
 
     };
 })(jQuery);
+

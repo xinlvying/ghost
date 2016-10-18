@@ -578,7 +578,7 @@ body.nav-opened .site-wrapper {
     position: relative;
     display: table;
     width: 100%;
-    height: 100vh;
+    height: 38.1966vh;
     margin-bottom: 5rem;
     text-align: center;
     background: #222 no-repeat center center;
@@ -789,7 +789,7 @@ body.nav-opened .nav {
 
 /* Create a bouncing scroll-down arrow on homepage with cover image */
 .scroll-down {
-    display: block;
+    display: none;
     position: absolute;
     z-index: 100;
     bottom: 45px;
@@ -1742,6 +1742,18 @@ body:not(.page-template) .post-title {
     float: left;
 }
 
+/* Media Query - Equal or less than 800px height */
+@media only screen and (max-height: 800px) {
+
+    .main-header {
+        height: 100vh;
+    }
+
+    .scroll-down {
+        display: block;
+    }
+
+}
 
 /* ==========================================================================
    12. Media Queries - Smaller than 900px
@@ -1903,6 +1915,7 @@ body:not(.page-template) .post-title {
     .main-header {
         margin-bottom: 15px;
         height: 40vh;
+        max-height: 200px;
     }
 
     .no-cover.main-header {
