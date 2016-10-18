@@ -652,9 +652,10 @@ body.nav-opened .nav {
     top: 45px;
     left: 30px;
     font-size: 16px;
-    font-weight: 100;
+    font-weight: 400;
     text-transform: uppercase;
     color: #fff;
+    font-family: "Open Sans", sans-serif;
 }
 
 .nav-close {
