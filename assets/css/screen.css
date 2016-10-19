@@ -188,7 +188,7 @@ body {
     letter-spacing: 0.01rem;
     font-size: 1.8rem;
     line-height: 1.75em;
-    color: #3A4145;
+    color: #616161;
     -webkit-font-feature-settings: 'kern' 1;
     -moz-font-feature-settings: 'kern' 1;
     -o-font-feature-settings: 'kern' 1;
@@ -245,12 +245,12 @@ h6 {
 }
 
 a {
-    color: #4A4A4A;
+    color: #424242;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #111;
+    color: #212121;
 }
 
 p, ul, ol, dl {
@@ -988,7 +988,7 @@ body.nav-opened .nav {
     max-width: 710px;
     margin: 4rem auto;
     padding-bottom: 4rem;
-    border-bottom: #EBF2F6 1px solid;
+    border-bottom: #EEEEEE 1px solid;
     word-wrap: break-word;
 }
 
@@ -1018,7 +1018,7 @@ body:not(.page-template) .post-title {
     font-family: "Open Sans", sans-serif;
     font-size: 1.5rem;
     line-height: 2.2rem;
-    color: #9EABB3;
+    color: #9E9E9E;
 }
 
 .author-thumb {
@@ -1030,7 +1030,7 @@ body:not(.page-template) .post-title {
 }
 
 .post-meta a {
-    color: #9EABB3;
+    color: #9E9E9E;
     text-decoration: none;
 }
 
@@ -1048,8 +1048,8 @@ body:not(.page-template) .post-title {
     display: inline-block;
     margin-left: 8px;
     padding-left: 12px;
-    border-left: #d5dbde 1px solid;
     text-transform: uppercase;
+    border-left: #BDBDBD 1px solid;
     font-size: 1.3rem;
     white-space: nowrap;
 }
@@ -1551,12 +1551,12 @@ body:not(.page-template) .post-title {
     margin: 4rem auto;
     font-family: "Open Sans", sans-serif;
     font-size: 1.3rem;
-    color: #9EABB3;
+    color: #9E9E9E;
     text-align: center;
 }
 
 .pagination a {
-    color: #9EABB3;
+    color: #9E9E9E;
     transition: all 0.2s ease;
 }
 
@@ -1566,7 +1566,7 @@ body:not(.page-template) .post-title {
     position: absolute;
     display: inline-block;
     padding: 0 15px;
-    border: #bfc8cd 1px solid;
+    border: #BDBDBD 1px solid;
     text-decoration: none;
     border-radius: 4px;
     transition: border 0.3s ease;
@@ -1588,8 +1588,8 @@ body:not(.page-template) .post-title {
 
 .older-posts:hover,
 .newer-posts:hover {
-    color: #889093;
-    border-color: #98a0a4;
+    color: #757575;
+    border-color: #9E9E9E;
 }
 
 .extra-pagination {
