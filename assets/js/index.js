@@ -55,6 +55,11 @@
             $('.home-template .page-title, .home-template .page-description').css('display', 'inherit');
         });
 
+        // Fade-in logo when image is loaded:
+        $('.blog-logo img').imagesLoaded(function() {
+            $('.blog-logo img').css('display', 'inherit');
+        });
+
     });
 
     // Arctic Scroll by Paul Adam Davis

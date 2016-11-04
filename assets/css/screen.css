@@ -855,11 +855,12 @@ body.nav-opened .nav {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    display: block;
+    display: none;
     height: 38px;
     padding: 1px 0 5px 0;
     width: auto;
     transition: all 0.5s ease;
+    animation: fade-in 0.5s both;
 }
 
 .menu-button {
