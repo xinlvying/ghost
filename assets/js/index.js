@@ -39,6 +39,22 @@
             }
         }
 
+        // Fade-in main header background image:
+        $('.main-header').imagesLoaded( { background: true }, function() {
+            $('.main-header-background-square').css('background-color', 'transparent');
+        });
+
+        // Show main header's title and description when background image is visible:
+        $(".home-template .main-header-background-square")
+            .on("transitionend MSTransitionEnd webkitTransitionEnd oTransitionEnd", function(e) {
+                    $('.home-template .page-title, .home-template .page-description').css('display', 'inherit');
+            });
+
+        // When window is resized make sure title and description are visible:
+        $(window).resize(function () {
+            $('.home-template .page-title, .home-template .page-description').css('display', 'inherit');
+        });
+
     });
 
     // Arctic Scroll by Paul Adam Davis
