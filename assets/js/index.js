@@ -47,7 +47,7 @@
         // Show main header's title and description when background image is visible:
         $(".home-template .main-header-background-square")
             .on("transitionend MSTransitionEnd webkitTransitionEnd oTransitionEnd", function(e) {
-                    $('.home-template .page-title, .home-template .page-description').css('display', 'inherit');
+                $('.home-template .page-title, .home-template .page-description').css('display', 'inherit');
             });
 
         // When window is resized make sure title and description are visible:
