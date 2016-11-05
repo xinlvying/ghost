@@ -900,6 +900,7 @@ body.nav-opened .nav {
 .nav-closed .menu-button {
     color: #fff;
     border-color: rgba(255, 255, 255, 0.6);
+    animation: fade-in 0.5s both;
 }
 .nav-closed .menu-button:hover {
     color: #222;

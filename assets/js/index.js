@@ -60,6 +60,11 @@
             $('.blog-logo img').css('display', 'inherit');
         });
 
+        // Remove animation from menu when visible for first time:
+        $('.nav-closed .menu-button').click(function() {
+            $(this).css('animation', 'none');
+        });
+
     });
 
     // Arctic Scroll by Paul Adam Davis
