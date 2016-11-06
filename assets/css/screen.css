@@ -1230,7 +1230,6 @@ body:not(.page-template) .post-title {
     list-style: none;
     font-size: 1.4rem;
     line-height: 1;
-    font-style: italic;
     color: #9EABB3;
 }
 
@@ -1398,7 +1397,7 @@ body:not(.page-template) .post-title {
 /* Location, website, and link */
 .author-profile .author-meta {
     margin: 2rem 0;
-    font-family: "Merriweather", serif;
+    font-family: "Open Sans", sans-serif;
     letter-spacing: 0.01rem;
     font-size: 1.7rem;
 }
