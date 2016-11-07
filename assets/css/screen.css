@@ -1355,6 +1355,8 @@ body:not(.page-template) .post-title {
     background: #fff;
     z-index: 2;
     box-shadow: #E7EEF2 0 0 0 1px;
+    visibility: hidden;
+    animation: fade-in 1s both;
 }
 
 .author-image .img {

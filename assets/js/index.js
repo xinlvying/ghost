@@ -65,6 +65,11 @@
             $(this).css('animation', 'none');
         });
 
+        // Show author image when image is loaded:
+        $('.author-image .img').imagesLoaded( { background: true }, function() {
+            $('.author-image').css('visibility', 'visible');
+        });
+
     });
 
     // Arctic Scroll by Paul Adam Davis
