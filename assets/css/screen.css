@@ -908,12 +908,11 @@ body.nav-opened .nav {
 
 /* When the navigation is closed and there is no cover image */
 .nav-closed .no-cover .menu-button {
-    border-color: #BDBDBD;
-    color: #9E9E9E;
+    border-color: rgba(255, 255, 255, 0.6);
+    color: #fff;
 }
 .nav-closed .no-cover .menu-button:hover {
-    border-color: #9E9E9E;
-    color: #616161;
+    color: #212121;
 }
 
 /* When the navigation is opened */
@@ -1985,6 +1984,10 @@ body:not(.page-template) .post-title {
     body.nav-opened .menu-button {
         background: none;
         border: transparent;
+    }
+
+    .nav-closed .no-cover .menu-button:hover {
+        color: #fff;
     }
 
     .main-nav.overlay a:hover {
