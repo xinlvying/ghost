@@ -970,15 +970,7 @@ body.nav-opened .nav {
 .no-cover.main-header {
     min-height: 160px;
     max-height: 40vh;
-    background: #f5f8fa;
-}
-
-.no-cover .page-title {
-    color: rgba(0,0,0,0.8);
-}
-
-.no-cover .page-description {
-    color: rgba(0,0,0,0.5);
+    background: #212121;
 }
 
 /* Add subtle load-in animation for content on the home page */
@@ -989,6 +981,10 @@ body.nav-opened .nav {
     animation-delay: 0.2s;
     font-weight: 800;
     display: none;
+}
+
+.home-template .no-cover .page-title, .archive-template .no-cover .page-title, .tag-template .no-cover .page-title {
+    display: inherit;
 }
 
 .archive-template .page-title, .tag-template .page-title{
@@ -1002,6 +998,10 @@ body.nav-opened .nav {
     -webkit-animation-delay: 0.1s;
     animation-delay: 0.1s;
     display: none;
+}
+
+.home-template .no-cover .page-description, .archive-template .no-cover .page-description, .tag-template .no-cover .page-description {
+    display: inherit;
 }
 
 .archive-template .page-description, .tag-template .page-description {
@@ -1935,6 +1935,7 @@ body:not(.page-template) .post-title {
 
     .no-cover.main-header {
         height: 30vh;
+        max-height: 250px;
     }
 
     .paged .main-header {
