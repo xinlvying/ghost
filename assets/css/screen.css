@@ -915,6 +915,17 @@ body.nav-opened .nav {
     color: #212121;
 }
 
+/* Nav menu color in post with no cover image */
+.post-template.nav-closed .main-header.no-cover .menu-button {
+    border-color: #BDBDBD;
+    color: #9E9E9E;
+}
+
+.post-template.nav-closed .main-header.no-cover .menu-button:hover {
+    border-color: #9E9E9E;
+    color: #757575;
+}
+
 /* When the navigation is opened */
 .nav-opened .menu-button {
     padding: 0 12px;
@@ -1988,6 +1999,12 @@ body:not(.page-template) .post-title {
 
     .nav-closed .no-cover .menu-button:hover {
         color: #fff;
+    }
+
+    /* Nav menu color in post with no cover image (media-query max width 500) */
+    .post-template.nav-closed .main-header.no-cover .menu-button,
+    .post-template.nav-closed .main-header.no-cover .menu-button:hover {
+        color: #212121;
     }
 
     .main-nav.overlay a:hover {
