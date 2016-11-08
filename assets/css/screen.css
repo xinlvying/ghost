@@ -916,12 +916,14 @@ body.nav-opened .nav {
 }
 
 /* Nav menu color in post with no cover image */
-.post-template.nav-closed .main-header.no-cover .menu-button {
+.post-template.nav-closed .main-header.no-cover .menu-button,
+.author-template.nav-closed .main-header.no-cover .menu-button {
     border-color: #BDBDBD;
     color: #9E9E9E;
 }
 
-.post-template.nav-closed .main-header.no-cover .menu-button:hover {
+.post-template.nav-closed .main-header.no-cover .menu-button:hover,
+.author-template.nav-closed .main-header.no-cover .menu-button:hover {
     border-color: #9E9E9E;
     color: #757575;
 }
@@ -2003,7 +2005,9 @@ body:not(.page-template) .post-title {
 
     /* Nav menu color in post with no cover image (media-query max width 500) */
     .post-template.nav-closed .main-header.no-cover .menu-button,
-    .post-template.nav-closed .main-header.no-cover .menu-button:hover {
+    .post-template.nav-closed .main-header.no-cover .menu-button:hover,
+    .author-template.nav-closed .main-header.no-cover .menu-button,
+    .author-template.nav-closed .main-header.no-cover .menu-button:hover {
         color: #212121;
     }
 
