@@ -928,6 +928,10 @@ body.nav-opened .nav {
     color: #757575;
 }
 
+.author-template.nav-closed header.main-header.author-head.no-cover {
+    z-index: 1;
+}
+
 /* When the navigation is opened */
 .nav-opened .menu-button {
     padding: 0 12px;
