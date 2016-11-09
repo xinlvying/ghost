@@ -932,6 +932,11 @@ body.nav-opened .nav {
     z-index: 1;
 }
 
+.author-template .author-bio {
+    font-weight: normal;
+    color: #616161;
+}
+
 /* When the navigation is opened */
 .nav-opened .menu-button {
     padding: 0 12px;
