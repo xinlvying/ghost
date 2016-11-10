@@ -152,6 +152,7 @@ td, th{ padding: 0; }
 }
 .icon-stats:before {
     content: "\f606";
+    margin-right: 2px;
 }
 .icon-location:before {
     content: "\f607";
@@ -159,6 +160,7 @@ td, th{ padding: 0; }
 }
 .icon-link:before {
     content: "\f608";
+    margin-right: 2px;
 }
 .icon-menu:before {
     content: "\f609";
@@ -1251,14 +1253,14 @@ body:not(.page-template) .post-title {
     list-style: none;
     font-size: 1.4rem;
     line-height: 1;
-    color: #9EABB3;
+    color: #9E9E9E;
 }
 
 .author-meta a {
-    color: #9EABB3;
+    color: #9E9E9E;
 }
 .author-meta a:hover {
-    color: #111;
+    color: #616161;
 }
 
 /* Create some space to the right for the share links */
