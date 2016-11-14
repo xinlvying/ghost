@@ -336,7 +336,8 @@ blockquote cite {
 blockquote cite a { font-weight: normal; }
 
 mark {
-    background-color: #fdffb6;
+    background-color: #FFF59D;
+    color: #424242;
 }
 
 code, tt {
