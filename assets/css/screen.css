@@ -1936,6 +1936,34 @@ body:not(.page-template) .post-title {
 
 @media only screen and (max-width: 500px) {
 
+    .post-template .content .post-title, h1 {
+        font-size: 3.25rem;
+    }
+
+    h2 {
+        font-size: 2.75rem;
+    }
+
+    h3 {
+        font-size: 2.4rem;
+    }
+
+    h4 {
+        font-size: 2rem;
+    }
+
+    h5 {
+        font-size: 1.6rem;
+    }
+
+    h6 {
+        font-size: 1.2rem;
+    }
+
+    .post-template .post-content p {
+        line-height: 1.5em;
+    }
+
     .main-header {
         margin-bottom: 15px;
         height: 40vh;
@@ -2095,31 +2123,7 @@ body:not(.page-template) .post-title {
         margin: 0 0 0.3em 0;
     }
 
-    h1 {
-        font-size: 2.8rem;
-        letter-spacing: -1px;
-    }
 
-    h2 {
-        font-size: 2.4rem;
-        letter-spacing: 0;
-    }
-
-    h3 {
-        font-size: 2.1rem;
-    }
-
-    h4 {
-        font-size: 1.9rem;
-    }
-
-    h5 {
-        font-size: 1.8rem;
-    }
-
-    h6 {
-        font-size: 1.8rem;
-    }
 
     body:not(.post-template) .post-title,
     body:not(.page-template) .post-title {
