@@ -1060,6 +1060,7 @@ body:not(.page-template) .post-title {
 
 .read-more {
     text-decoration: none;
+    color: #616161;
 }
 
 .post-meta {
