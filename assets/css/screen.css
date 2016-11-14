@@ -1744,11 +1744,11 @@ body:not(.page-template) .post-title {
     font-family: "Open Sans", sans-serif;
     font-size: 1rem;
     line-height: 1.75em;
-    color: #BBC7CC;
+    color: #9E9E9E;
 }
 
 .site-footer a {
-    color: #BBC7CC;
+    color: #9E9E9E;
     text-decoration: none;
     font-weight: bold;
 }
