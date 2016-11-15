@@ -1514,6 +1514,7 @@ body:not(.page-template) .post-title {
 }
 
 .read-next-story .post:before {
+    visibility: hidden;
     content: "Read This Next";
     padding: 4px 10px 5px;
     text-transform: uppercase;
@@ -1536,11 +1537,12 @@ body:not(.page-template) .post-title {
 .read-next-story p {
     margin: 0;
     color: rgba(255,255,255,0.8);
+    line-height: 1.65em;
 }
 
 /* Special styles for posts with no cover images */
 .read-next-story.no-cover {
-    background: #f5f8fa;
+    background: #F5F5F5;
 }
 
 .read-next-story.no-cover:before {
@@ -1553,11 +1555,11 @@ body:not(.page-template) .post-title {
 }
 
 .read-next-story.no-cover h2 {
-    color: rgba(0,0,0,0.8);
+    color: #424242;
 }
 
 .read-next-story.no-cover p {
-    color: rgba(0,0,0,0.5);
+    color: #757575;
 }
 
 /* if there are two posts without covers, put a border between them */
