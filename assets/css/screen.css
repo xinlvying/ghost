@@ -1679,7 +1679,8 @@ body:not(.page-template) .post-title {
 
 /* On page2+ make all the headers smaller */
 .paged .main-header {
-    max-height: 30vh;
+    height: 40vh;
+    min-height: 180px;
 }
 
 /* On page2+ show extra pagination controls at the top of post list */
