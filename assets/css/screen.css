@@ -2236,6 +2236,10 @@ body:not(.page-template) .post-title {
         width: 100%;
     }
 
+    .paged .main-header {
+        max-height: 170px;
+    }
+
 }
 
 
