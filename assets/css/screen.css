@@ -2137,7 +2137,6 @@ body:not(.page-template) .post-title {
     }
 
     .post-content img {
-        padding: 0;
         min-width: 0;
         max-width: 100%; /* fallback when calc doesn't work */
     }
