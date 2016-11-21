@@ -1704,7 +1704,7 @@ body:not(.page-template) .post-title {
 
 .gh-subscribe-title {
     margin-bottom: 0;
-    font-size: 2.4rem
+    font-size: 2.7rem
 }
 
 .gh-subscribe p {
@@ -1729,6 +1729,7 @@ body:not(.page-template) .post-title {
     margin: 0;
     border-radius: 4px 0 0 4px;
     transition: all ease 0.5s;
+    font-weight: normal;
 }
 
 .gh-subscribe .subscribe-email:focus {
@@ -1739,6 +1740,7 @@ body:not(.page-template) .post-title {
 .gh-subscribe button {
     margin-left: -1px;
     border-radius: 0 4px 4px 0;
+    font-weight: 600;
 }
 
 .gh-subscribe-rss {
