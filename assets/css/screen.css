@@ -1808,13 +1808,7 @@ body:not(.page-template) .post-title {
     }
 
     .main-header {
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
-        height: auto;
-        min-height: 240px;
-        height: 60vh;
-        padding: 15% 0;
+        max-height: 60vh;
     }
 
     .home-template .page-title,.home-template .page-description,
@@ -1828,11 +1822,6 @@ body:not(.page-template) .post-title {
 
     .scroll-down,
     .home-template .main-header:after { display: none; }
-
-    .paged .main-header {
-        min-height: 180px;
-        padding: 10% 0;
-    }
 
     .blog-logo img {
         padding: 4px 0;
@@ -1886,7 +1875,8 @@ body:not(.page-template) .post-title {
     }
 
     .tag-head.main-header,
-    .author-head.main-header {
+    .author-head.main-header,
+    .paged .main-header{
         height: 30vh;
     }
 
