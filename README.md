@@ -1,16 +1,42 @@
-# Casper
+![Ghost version shield](https://img.shields.io/badge/Ghost version-0.11.3-brightgreen.svg)
+![Release shield](https://img.shields.io/github/release/tenoku/boo.svg)
+![Downloads shield](https://img.shields.io/github/downloads/tenoku/boo/total.svg)
+![Stars shield](https://img.shields.io/github/stars/tenoku/boo.svg?style=social&label=Star)
 
-The default theme for [Ghost](http://github.com/tryghost/ghost/).
+![Boo theme logo](http://i.imgur.com/fbifvYJ.png)
+> A beautiful, clean and responsive theme for Ghost. [Live Demo](http://boo-demo.tenoku.com/)
 
-To download, visit the [releases](https://github.com/TryGhost/Casper/releases) page.
+![Animated gif of Boo theme, home page on a desktop](http://i.imgur.com/0LYO26Q.gif)
 
-## Copyright & License
+---
 
-Copyright (c) 2013-2016 Ghost Foundation - Released under the MIT License.
+## How it looks 👀
+![Animated fig showing the Boo theme on a desktop](http://i.imgur.com/r5lx0oE.gif)
+---
+![Animated fig showing the Boo theme on a desktop](http://i.imgur.com/7SqhEsT.gif)
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+---
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+## Menu 📖
+![Animated gif showing the menu of the Boo theme on a desktop](http://i.imgur.com/gMroOve.gif)
+---
+![Animated gif showing the menu of the Boo theme on a mobile device](http://i.imgur.com/ptNIwCP.gif)
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+---
+
+## Installation 🚀
+1. Download the [latest version](https://github.com/tenoku/boo/archive/v0.11.0.zip) of Boo
+2. Log into your blog: **yourblog.ghost.io/ghost** [(Don't have Ghost?](https://ghost.org))
+3. Select, **General** from the navigation menu on the left of your admin area
+4. Scroll down to the **Themes** section and click on the green, **Upload a Theme** button
+
+---
+
+## Report issues 🐞
+Found a bug? No problem, [click here](https://github.com/tenoku/boo/issues/new) to report it
+
+---
+
+## FAQ 🤔
+### Have problems installing this theme?
+You can find more detailed instructions [here](https://help.ghost.org/hc/en-us/articles/223241628-Uploading-Themes)
