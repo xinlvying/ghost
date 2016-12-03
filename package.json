@@ -1,6 +1,6 @@
 {
     "name": "Boo",
-    "description": "A beautiful theme based on Casper.",
+    "description": "A beautiful, clean and responsive theme for Ghost.",
     "demo": "http://boo-demo.tenoku.com",
     "version": "0.11.0",
     "engines": {
@@ -36,8 +36,8 @@
     ],
     "repository": {
         "type": "git",
-        "url": "*"
+        "url": "https://github.com/tenoku/boo"
     },
-    "bugs": "*",
-    "contributors": "*"
+    "bugs": "https://github.com/tenoku/boo/issues",
+    "contributors": "https://github.com/tenoku/boo/graphs/contributors"
 }
