@@ -1,9 +1,3 @@
-![Ghost version shield](https://img.shields.io/badge/Ghost version-0.11.3-brightgreen.svg)
-![Release shield](https://img.shields.io/github/release/tenoku/boo.svg)
-![Downloads shield](https://img.shields.io/github/downloads/tenoku/boo/total.svg)
-![Stars shield](https://img.shields.io/github/stars/tenoku/boo.svg?style=social&label=Star)
-<br><br>
-
 ![Boo theme logo](http://i.imgur.com/fbifvYJ.png)
 > A beautiful, clean and responsive theme for Ghost. [Live Demo](http://boo-demo.tenoku.com/)
 
@@ -41,3 +35,10 @@ Found a bug? No problem, [click here](https://github.com/tenoku/boo/issues/new) 
 ## FAQ 🤔
 ### Have problems installing this theme?
 You can find more detailed instructions [here](https://help.ghost.org/hc/en-us/articles/223241628-Uploading-Themes)
+
+---
+
+![Ghost version shield](https://img.shields.io/badge/Ghost version-0.11.3-brightgreen.svg)
+![Release shield](https://img.shields.io/github/release/tenoku/boo.svg)
+![Downloads shield](https://img.shields.io/github/downloads/tenoku/boo/total.svg)
+![Stars shield](https://img.shields.io/github/stars/tenoku/boo.svg?style=social&label=Star)
