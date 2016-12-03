@@ -2,6 +2,7 @@
 ![Release shield](https://img.shields.io/github/release/tenoku/boo.svg)
 ![Downloads shield](https://img.shields.io/github/downloads/tenoku/boo/total.svg)
 ![Stars shield](https://img.shields.io/github/stars/tenoku/boo.svg?style=social&label=Star)
+<br><br>
 
 ![Boo theme logo](http://i.imgur.com/fbifvYJ.png)
 > A beautiful, clean and responsive theme for Ghost. [Live Demo](http://boo-demo.tenoku.com/)
